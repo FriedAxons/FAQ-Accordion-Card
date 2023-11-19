@@ -1,4 +1,9 @@
 body {
   margin: 0;
   font-family: "Kumbh Sans", sans-serif;
+  background: linear-gradient(
+    to bottom,
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
 }
