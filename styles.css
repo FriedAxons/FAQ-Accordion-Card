@@ -13,42 +13,60 @@ body {
 }
 
 .card-container {
-  width: 100%;
-  max-width: 1200px;
-  max-height: 800px;
-  padding: 60px 100px 50px 0px;
+  min-width: 70vw;
+  min-height: 55vh;
+  padding: 55px 100px 70px 0px;
   background-color: #ffffff;
   box-shadow: 12px 22px 22px rgba(0, 0, 0, 0.3);
   border-radius: 25px;
-  overflow: hidden; /* Ensure content inside does not protrude rounded corners */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  margin: 0px 0px 30px;
 }
 
 .illustrations {
   position: relative;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: visible;
+}
+
+.woman-container {
+  position: relative;
+  overflow: hidden; 
+  z-index: 2;
 }
 
 .box-illustration {
   position: absolute;
+  top: 135px; 
+  left: -92px;
+  z-index: 3;
 }
 
-/* 
-.women-online-illustration {
-} */
+.woman-online-illustration {
+  position: relative; 
+  margin: 0px 100px 0px -80px;
+}
 
 .dropdown-item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-/* .arrow {
-} */
+.question {
+  margin-right: 60px;
+}
 
 .hidden-text {
   display: none;
