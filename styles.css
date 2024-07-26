@@ -42,19 +42,19 @@ h1 {
 
 .woman-container {
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
   z-index: 2;
 }
 
 .box-illustration {
   position: absolute;
-  top: 135px; 
+  top: 135px;
   left: -92px;
   z-index: 3;
 }
 
 .woman-online-illustration {
-  position: relative; 
+  position: relative;
   margin: 0px 100px 0px -80px;
 }
 
@@ -65,7 +65,12 @@ h1 {
 }
 
 .question {
-  margin-right: 60px;
+  margin-right: 70px;
+}
+
+.question:hover {
+  cursor: pointer;
+  color: hsl(14, 88%, 65%);
 }
 
 .hidden-text {
