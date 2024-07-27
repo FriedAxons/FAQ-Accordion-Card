@@ -62,10 +62,15 @@ h1 {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid hsl(240, 5%, 91%);
+  color: hsl(240, 6%, 50%);
+  font-weight: 400;
+  transition: color 0.3s, font-weight 0.3s;
 }
 
 .dropdown-item.active { 
   border-bottom: none;
+  color: hsl(238, 29%, 16%);
+  font-weight: 700; 
 }
 
 .dropdown-item.active + .hidden-text {
@@ -79,6 +84,7 @@ h1 {
 .question {
   margin: 18.72px 0px 20px;
   font-weight: 400;
+  color: hsl(237, 12%, 33%);
 }
 
 .question:hover {
@@ -100,6 +106,7 @@ h1 {
   overflow: hidden; 
   transition: max-height 0.3s ease-out;
   padding: 0 0;
+  color: hsl(240, 6%, 50%);
 }
 
 .hidden-text p {
