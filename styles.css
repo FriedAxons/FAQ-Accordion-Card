@@ -67,10 +67,13 @@ h1 {
   transition: color 0.3s, font-weight 0.3s;
 }
 
-.dropdown-item.active { 
+.dropdown-item.active {
   border-bottom: none;
+}
+
+.dropdown-item.active .question {
   color: hsl(238, 29%, 16%);
-  font-weight: 700; 
+  font-weight: 700;
 }
 
 .dropdown-item.active + .hidden-text {
@@ -97,13 +100,14 @@ h1 {
   transition: transform 0.3s;
 }
 
-.question, .arrow {
+.question,
+.arrow {
   cursor: pointer;
 }
 
 .hidden-text {
   max-height: 0;
-  overflow: hidden; 
+  overflow: hidden;
   transition: max-height 0.3s ease-out;
   padding: 0 0;
   color: hsl(240, 6%, 50%);
@@ -114,5 +118,5 @@ h1 {
 }
 
 .hidden-text.active {
-  max-height: 1000px; 
+  max-height: 1000px;
 }
