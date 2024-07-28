@@ -15,7 +15,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ## Overview
 
-The purpose of this project is to develop more skills in HTML, CSS, as well as Javascript, as the case may be. The goal is to have ones own attempt be as close as the original design as possible (provided inside the design folder). Refer to "The Challenge" section below for more information on what the project should be able to do.
+The goal is to have ones own attempt be as close as the original design as possible (provided inside the design folder). Refer to "The Challenge" section below for more information on what the project should be able to do.
 
 ### The challenge
 
@@ -27,7 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop Solution](images/solution_screenshots/desktop_solution.png)
+![Desktop Hover State](images/solution_screenshots/desktop_active_1.png)
 
 ### Links
 
@@ -38,6 +39,7 @@ Users should be able to:
 
 - HTML
 - CSS
+- JavaScript
 
 ## Author
 
