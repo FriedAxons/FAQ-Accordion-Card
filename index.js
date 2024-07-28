@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function toggleActive(index) {
       const selectedItem = dropdownItems[index];
       const hiddenText = selectedItem.nextElementSibling;
+      const question = selectedItem.querySelector(".question");
       const arrow = selectedItem.querySelector(".arrow");
 
       // Close all items except the selected one
@@ -36,6 +37,12 @@ document.addEventListener("DOMContentLoaded", () => {
         hiddenText.style.maxHeight = hiddenText.scrollHeight + "px";
       } else {
         hiddenText.style.maxHeight = "0";
+      }
+
+      if (question.classList.contains("active")) {
+        question.style.color = "hsl(238, 29%, 16%)";
+      } else {
+        question.style.color = "hsl(237, 12%, 33%)";
       }
     }
 

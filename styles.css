@@ -85,7 +85,7 @@ h1 {
 }
 
 .question {
-  margin: 18.72px 0px 20px;
+  margin: 18.72px 0px 15px;
   font-weight: 400;
   color: hsl(237, 12%, 33%);
 }
@@ -119,4 +119,53 @@ h1 {
 
 .hidden-text.active {
   max-height: 1000px;
+}
+
+@media (max-width: 375px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90vw;
+    padding: 150px 20px 45px 20px;
+    box-shadow: 12px 22px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .illustrations {
+    flex-direction: column;
+  }
+
+  .woman-online-illustration {
+    background-image: url("images/illustration-woman-online-mobile.svg");
+    height: 100px;
+    width: 100px;
+    position: absolute;
+  }
+
+  .box-illustration {
+    display: none;
+  }
+
+  h1 {
+    margin-bottom: 18px;
+    text-align: center;
+    font-size: 34px;
+  }
+
+  h2,
+  h3 {
+    font-size: 15px;
+  }
+
+  p { 
+    font-size: 14px;
+  }
+
+  .dropdown-item {
+    padding: 5px 0px;
+  }
+
+  .arrow {
+    margin-left: 16px;
+  }
 }
