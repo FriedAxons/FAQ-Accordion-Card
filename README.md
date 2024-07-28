@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/faq-accordion-card-solution-PF_VdwQx9L)
+- Live Site URL: [GitHub Live Page](https://friedaxons.github.io/FAQ-Accordion-Card/)
 
 ### Built with
 
