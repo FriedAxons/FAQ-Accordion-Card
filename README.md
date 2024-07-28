@@ -28,7 +28,8 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop Solution](images/solution_screenshots/desktop_solution.png)
-![Desktop Hover State](images/solution_screenshots/desktop_active_1.png)
+![Desktop Hover State](images/solution_screenshots/desktop_hover_state.png)
+![Desktop Active State](images/solution_screenshots/desktop_active.png)
 
 ### Links
 
