@@ -30,6 +30,7 @@ Users should be able to:
 ![Desktop Solution](images/solution_screenshots/desktop_solution.png)
 ![Desktop Hover State](images/solution_screenshots/desktop_hover_state.png)
 ![Desktop Active State](images/solution_screenshots/desktop_active.png)
+![Mobile Version Solution](images/solution_screenshots/mobile_solution.png)
 
 ### Links
 
