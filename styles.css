@@ -10,6 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  position: relative;
 }
 
 .card-container {
@@ -37,24 +38,44 @@ h1 {
   justify-content: center;
   align-items: center;
   overflow: visible;
+  z-index: 2;
 }
 
 .woman-container {
   position: relative;
   overflow: hidden;
-  z-index: 2;
+  z-index: 3;
 }
 
 .box-illustration {
   position: absolute;
   top: 135px;
   left: -92px;
-  z-index: 3;
+  z-index: 4;
 }
 
 .woman-online-illustration {
+  display: block;
   position: relative;
   margin: 0px 100px 0px -80px;
+}
+
+.desktop-illustration {
+  display: block;
+}
+
+.mobile-illustration {
+  display: none;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* The following properties are for troubleshooting */
+  margin: 0;
+  width: 250px;
+  height: auto;
+  z-index: 5;
+  border: 2px solid red;
 }
 
 .dropdown-item {
@@ -127,19 +148,16 @@ h1 {
     align-items: center;
     justify-content: center;
     max-width: 90vw;
-    padding: 150px 20px 45px 20px;
+    padding: 150px 20px 50px 20px;
     box-shadow: 12px 22px 40px rgba(0, 0, 0, 0.3);
   }
 
-  .illustrations {
-    flex-direction: column;
+  .desktop-illustration {
+    display: none;
   }
 
-  .woman-online-illustration {
-    background-image: url("images/illustration-woman-online-mobile.svg");
-    height: 100px;
-    width: 100px;
-    position: absolute;
+  .mobile-illustration {
+    display: block;
   }
 
   .box-illustration {
@@ -154,11 +172,11 @@ h1 {
 
   h2,
   h3 {
-    font-size: 15px;
+    font-size: 14.5px;
   }
 
-  p { 
-    font-size: 14px;
+  p {
+    font-size: 13.5px;
   }
 
   .dropdown-item {
