@@ -67,15 +67,24 @@ h1 {
 .mobile-illustration {
   display: none;
   position: absolute;
-  top: -50px;
+  top: -267px;
   left: 50%;
   transform: translateX(-50%);
-  /* The following properties are for troubleshooting */
   margin: 0;
-  width: 250px;
+  width: 260px;
   height: auto;
   z-index: 5;
-  border: 2px solid red;
+}
+
+.background-pattern {
+  display: none;
+  position: absolute;
+  z-index: 4;
+  width: 260px;
+  height: auto;
+  top: -145px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .dropdown-item {
@@ -157,6 +166,10 @@ h1 {
   }
 
   .mobile-illustration {
+    display: block;
+  }
+
+  .background-pattern {
     display: block;
   }
 
